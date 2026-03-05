@@ -101,7 +101,7 @@ export default function FAQsPage() {
                             <h1 className="text-5xl md:text-6xl mb-6">Frequently Asked Questions</h1>
                             <div className="divider"></div>
                             <p className="text-lg md:text-xl max-w-2xl mx-auto mt-6">
-                                Find answers to common questions about commissions and art lessons.
+                                Find answers to common questions about <strong>HOOD</strong> commissions and art lessons.
                             </p>
                         </div>
 
@@ -204,9 +204,9 @@ export default function FAQsPage() {
                 {/* Still Have Questions */}
                 <section className="bg-[#50261A] py-16 md:py-24">
                     <div className="container-custom text-center">
-                        <h2 className="text-4xl md:text-5xl mb-6">Still Have Questions?</h2>
-                        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
-                            Can't find the answer you're looking for? I'm here to help! Feel free to reach out and I'll get back to you as soon as possible.
+                        <h2 className="text-4xl md:text-5xl mb-6 text-white">Still Have Questions?</h2>
+                        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white">
+                            Can&apos;t find the answer you&apos;re looking for? Reach out directly — all <strong>HOOD</strong> inquiries are welcome and I&apos;ll get back to you as soon as possible.
                         </p>
                         <Link href="/contact" className="btn-primary">
                             Contact Me

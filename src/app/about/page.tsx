@@ -34,7 +34,7 @@ export default function AboutPage() {
                             <div>
                                 <h2 className="text-3xl md:text-4xl mb-6">My Journey as an Artist</h2>
                                 <p className="text-lg mb-4">
-                                    Welcome to my artistic world! I&apos;m Aimy Sidney Franco, a passionate portrait artist dedicated to creating meaningful art that captures the essence and personality of my subjects.
+                                    Welcome to my artistic world! I&apos;m Aimy Sidney Franco — also known by my artist brand <strong>HOOD</strong> — a passionate portrait artist dedicated to creating meaningful art that captures the essence and personality of my subjects.
                                 </p>
                                 <p className="text-lg mb-4">
                                     My journey in art began with a deep appreciation for the human form and the unique stories each individual carries. Over the years, I&apos;ve honed my skills across various mediums including charcoal, soft pastels, watercolors, and graphite.
@@ -53,6 +53,7 @@ export default function AboutPage() {
                         <div className="text-center mb-12">
                             <h2 className="text-4xl md:text-5xl mb-6">My Specialties</h2>
                             <div className="divider"></div>
+                            <p className="text-base text-gray-500 mt-4">All work is created under the <strong>HOOD</strong> brand.</p>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

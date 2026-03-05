@@ -59,7 +59,7 @@ export default function CommissionFAQPage() {
                             <h1 className="text-5xl md:text-6xl mb-6">Commission FAQs</h1>
                             <div className="divider"></div>
                             <p className="text-lg md:text-xl max-w-2xl mx-auto mt-6">
-                                Everything you need to know about commissioning a custom portrait.
+                                Everything you need to know about commissioning a custom portrait from <strong>HOOD</strong>.
                             </p>
                         </div>
 
@@ -121,15 +121,15 @@ export default function CommissionFAQPage() {
                 {/* Call to Action */}
                 <section className="bg-[#50261A] py-16 md:py-24">
                     <div className="container-custom text-center">
-                        <h2 className="text-4xl md:text-5xl mb-6">Ready to Commission?</h2>
-                        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
-                            Still have questions? Feel free to contact me, or check out my commission rates and process.
+                        <h2 className="text-4xl md:text-5xl mb-6 text-white">Ready to Commission?</h2>
+                        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white">
+                            Still have questions about a <strong>HOOD</strong> commission? Feel free to reach out, or check out my rates and process.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link href="/commission" className="btn-primary">
+                            <Link href="/commission" className="btn-inverted">
                                 View Rates
                             </Link>
-                            <Link href="/contact" className="btn-primary">
+                            <Link href="/contact" className="btn-inverted">
                                 Contact Me
                             </Link>
                         </div>

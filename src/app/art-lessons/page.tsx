@@ -59,7 +59,7 @@ export default function ArtLessonsFAQPage() {
                             <h1 className="text-5xl md:text-6xl mb-6">Art Lessons FAQs</h1>
                             <div className="divider"></div>
                             <p className="text-lg md:text-xl max-w-2xl mx-auto mt-6">
-                                Everything you need to know about taking art courses and developing your skills.
+                                Everything you need to know about <strong>HOOD</strong> art courses and developing your skills.
                             </p>
                         </div>
 
@@ -121,15 +121,15 @@ export default function ArtLessonsFAQPage() {
                 {/* Call to Action */}
                 <section className="bg-[#50261A] py-16 md:py-24">
                     <div className="container-custom text-center">
-                        <h2 className="text-4xl md:text-5xl mb-6">Ready to Start Learning?</h2>
-                        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
-                            Still have questions? Feel free to contact me, or check out my available courses.
+                        <h2 className="text-4xl md:text-5xl mb-6 text-white">Ready to Start Learning?</h2>
+                        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white">
+                            Still have questions about <strong>HOOD</strong> art lessons? Reach out or check out the available courses.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link href="/courses" className="btn-primary">
+                            <Link href="/courses" className="btn-inverted">
                                 View Courses
                             </Link>
-                            <Link href="/contact" className="btn-primary">
+                            <Link href="/contact" className="btn-inverted">
                                 Contact Me
                             </Link>
                         </div>
