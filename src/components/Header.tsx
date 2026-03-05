@@ -45,14 +45,14 @@ export default function Header({ transparent = false }: { transparent?: boolean 
                 <li><Link href="/courses" className="menu-link">COURSES</Link></li>
                 <li className="relative group">
                   <Link href="/testimonials" className="menu-link">TESTIMONIALS</Link>
-                  <ul className="absolute left-0 top-full mt-1 w-64 bg-white shadow-lg border-t-2 border-[#50261A] hidden group-hover:block">
+                  <ul className="absolute left-0 top-full mt-1 w-64 bg-white shadow-lg border-t-2 border-[#544946] hidden group-hover:block">
                     <li><Link href="/customers" className="block px-6 py-3 hover:bg-gray-50">Customers</Link></li>
                     <li><Link href="/students" className="block px-6 py-3 hover:bg-gray-50">Students</Link></li>
                   </ul>
                 </li>
                 <li className="relative group">
                   <Link href="/faqs" className="menu-link">FAQ&apos;S</Link>
-                  <ul className="absolute left-0 top-full mt-1 w-64 bg-white shadow-lg border-t-2 border-[#50261A] hidden group-hover:block">
+                  <ul className="absolute left-0 top-full mt-1 w-64 bg-white shadow-lg border-t-2 border-[#544946] hidden group-hover:block">
                     <li><Link href="/faq-commission" className="block px-6 py-3 hover:bg-gray-50">Commissions</Link></li>
                     <li><Link href="/art-lessons" className="block px-6 py-3 hover:bg-gray-50">Art Lessons</Link></li>
                   </ul>

@@ -59,8 +59,8 @@
 
 @layer base {
   :root {
-    --ast-global-color-0: #50261A;
-    --ast-global-color-1: #50261A;
+    --ast-global-color-0: #544946;
+    --ast-global-color-1: #544946;
     --ast-global-color-2: #000000;
     --ast-global-color-3: #3f3e3e;
     --ast-global-color-4: #ededed;
@@ -129,7 +129,7 @@
   }
 
   ::selection {
-    background-color: #50261A;
+    background-color: #544946;
     color: #000000;
   }
 }
@@ -147,7 +147,7 @@
   }
 
   .btn-primary:hover {
-    background-color: #3a1a0f;
+    background-color: #3d3433;
     color: var(--ast-global-color-5);
   }
 
@@ -156,7 +156,7 @@
     font-family: inherit;
     background-color: #ffffff;
     border: 2px solid #ffffff;
-    color: #50261A;
+    color: #544946;
     font-size: 1rem;
     line-height: 1em;
     font-weight: 600;
@@ -223,7 +223,7 @@
   }
 
   .service-arrow {
-    @apply w-12 h-12 rounded-full border-2 flex items-center justify-center mx-auto transition-all hover:bg-[#50261A] hover:border-[#50261A] hover:text-white;
+    @apply w-12 h-12 rounded-full border-2 flex items-center justify-center mx-auto transition-all hover:bg-[#544946] hover:border-[#544946] hover:text-white;
     border-color: var(--ast-global-color-0);
     color: var(--ast-global-color-0);
   }

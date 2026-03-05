@@ -53,7 +53,7 @@ export default function ContactPage() {
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                                             </svg>
                                         </div>
-                                        <h3 className="text-2xl font-bold mb-3" style={{ color: '#50261A' }}>Message Sent!</h3>
+                                        <h3 className="text-2xl font-bold mb-3" style={{ color: '#544946' }}>Message Sent!</h3>
                                         <p className="text-gray-600 mb-2 text-base">Thank you for reaching out! I&apos;ll get back to you within 24–48 hours.</p>
                                         <p className="text-gray-400 text-sm mb-8">A confirmation has been noted. Looking forward to connecting with you! 🎨</p>
                                         <button
@@ -76,7 +76,7 @@ export default function ContactPage() {
                                                 value={formData.name}
                                                 onChange={handleChange}
                                                 required
-                                                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#50261A] focus:border-transparent"
+                                                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#544946] focus:border-transparent"
                                             />
                                         </div>
 
@@ -91,7 +91,7 @@ export default function ContactPage() {
                                                 value={formData.email}
                                                 onChange={handleChange}
                                                 required
-                                                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#50261A] focus:border-transparent"
+                                                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#544946] focus:border-transparent"
                                             />
                                         </div>
 
@@ -106,7 +106,7 @@ export default function ContactPage() {
                                                 value={formData.subject}
                                                 onChange={handleChange}
                                                 required
-                                                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#50261A] focus:border-transparent"
+                                                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#544946] focus:border-transparent"
                                             />
                                         </div>
 
@@ -121,7 +121,7 @@ export default function ContactPage() {
                                                 onChange={handleChange}
                                                 required
                                                 rows={6}
-                                                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#50261A] focus:border-transparent resize-none"
+                                                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#544946] focus:border-transparent resize-none"
                                             ></textarea>
                                         </div>
 
@@ -139,7 +139,7 @@ export default function ContactPage() {
                                     <div className="space-y-4">
                                         <div>
                                             <h4 className="font-semibold mb-2">Email</h4>
-                                            <a href="mailto:info@aimysidneyfranco.com" className="text-[#50261A] hover:underline">
+                                            <a href="mailto:info@aimysidneyfranco.com" className="text-[#544946] hover:underline">
                                                 info@aimysidneyfranco.com
                                             </a>
                                         </div>
@@ -150,7 +150,7 @@ export default function ContactPage() {
                                                     href="https://facebook.com/abirkhalil.art"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-[#3f3e3e] hover:text-[#50261A]"
+                                                    className="text-[#3f3e3e] hover:text-[#544946]"
                                                 >
                                                     Facebook
                                                 </a>
@@ -158,7 +158,7 @@ export default function ContactPage() {
                                                     href="https://instagram.com/abirkhalil.art"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-[#3f3e3e] hover:text-[#50261A]"
+                                                    className="text-[#3f3e3e] hover:text-[#544946]"
                                                 >
                                                     Instagram
                                                 </a>
@@ -166,7 +166,7 @@ export default function ContactPage() {
                                                     href="https://pinterest.com/abirkhalil"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-[#3f3e3e] hover:text-[#50261A]"
+                                                    className="text-[#3f3e3e] hover:text-[#544946]"
                                                 >
                                                     Pinterest
                                                 </a>
@@ -186,7 +186,7 @@ export default function ContactPage() {
                                     <h3 className="text-2xl mb-4">Commission Inquiries</h3>
                                     <p className="text-base mb-4">
                                         For commission-related questions, please visit my{' '}
-                                        <a href="/commission" className="text-[#50261A] hover:underline">
+                                        <a href="/commission" className="text-[#544946] hover:underline">
                                             Order Rates page
                                         </a>
                                         {' '}for detailed pricing and process information.

@@ -109,19 +109,19 @@ export default function FAQsPage() {
                         <div className="flex flex-wrap justify-center gap-4 mb-12">
                             <Link
                                 href="/faqs"
-                                className="px-6 py-3 bg-[#50261A] text-white rounded-md hover:bg-[#3a1a0f] transition-all"
+                                className="px-6 py-3 bg-[#544946] text-white rounded-md hover:bg-[#3d3433] transition-all"
                             >
                                 All FAQs
                             </Link>
                             <Link
                                 href="/faq-commission"
-                                className="px-6 py-3 bg-white text-[#50261A] rounded-md hover:bg-[#50261A] hover:text-white border border-[#50261A] transition-all"
+                                className="px-6 py-3 bg-white text-[#544946] rounded-md hover:bg-[#544946] hover:text-white border border-[#544946] transition-all"
                             >
                                 Commissions
                             </Link>
                             <Link
                                 href="/art-lessons"
-                                className="px-6 py-3 bg-white text-[#50261A] rounded-md hover:bg-[#50261A] hover:text-white border border-[#50261A] transition-all"
+                                className="px-6 py-3 bg-white text-[#544946] rounded-md hover:bg-[#544946] hover:text-white border border-[#544946] transition-all"
                             >
                                 Art Lessons
                             </Link>
@@ -202,7 +202,7 @@ export default function FAQsPage() {
                 </section>
 
                 {/* Still Have Questions */}
-                <section className="bg-[#50261A] py-16 md:py-24">
+                <section className="bg-[#544946] py-16 md:py-24">
                     <div className="container-custom text-center">
                         <h2 className="text-4xl md:text-5xl mb-6 text-white">Still Have Questions?</h2>
                         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white">

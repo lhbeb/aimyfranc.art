@@ -110,7 +110,7 @@ export default function AboutPage() {
                 </section>
 
                 {/* Call to Action */}
-                <section className="bg-[#50261A] py-16 md:py-24">
+                <section className="bg-[#544946] py-16 md:py-24">
                     <div className="container-custom text-center">
                         <h2 className="text-4xl md:text-5xl mb-6 text-white">Let&apos;s Create Together</h2>
                         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white">

@@ -127,7 +127,7 @@ export default function Home() {
               />
 
               {/* Brand Label */}
-              <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#50261A] mb-2">Artist Brand</p>
+              <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#544946] mb-2">Artist Brand</p>
 
               {/* HOOD Title */}
               <h2
@@ -138,7 +138,7 @@ export default function Home() {
               </h2>
 
               {/* Divider */}
-              <div className="w-14 h-[3px] bg-[#50261A] mx-auto mb-8" />
+              <div className="w-14 h-[3px] bg-[#544946] mx-auto mb-8" />
 
               {/* Message */}
               <p className="text-[#3f3e3e] text-lg md:text-xl leading-relaxed mb-3">
@@ -182,7 +182,7 @@ export default function Home() {
                 <p className="text-lg mb-6">
                   With years of experience in both traditional and contemporary art techniques, I offer custom portrait commissions, bird paintings for nature enthusiasts, and comprehensive art lessons for aspiring artists of all levels.
                 </p>
-                <Link href="/about" className="inline-block bg-[#50261A] hover:bg-[#3a1a0f] text-white font-semibold px-8 py-3 rounded transition-colors duration-200">
+                <Link href="/about" className="inline-block bg-[#544946] hover:bg-[#3d3433] text-white font-semibold px-8 py-3 rounded transition-colors duration-200">
                   Learn More About My Journey
                 </Link>
               </div>
@@ -199,7 +199,7 @@ export default function Home() {
         </section>
 
         {/* Call to Action Section */}
-        <section className="bg-[#50261A] py-16 md:py-24">
+        <section className="bg-[#544946] py-16 md:py-24">
           <div className="container-custom text-center">
             <h2 className="text-4xl md:text-5xl mb-6 text-white">Ready to Get Started?</h2>
             <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white">

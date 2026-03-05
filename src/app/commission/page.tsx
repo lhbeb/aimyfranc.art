@@ -27,31 +27,31 @@ export default function CommissionPage() {
                         {/* Pricing Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
                             {/* Human Portraits */}
-                            <div className="bg-white border-2 border-[#50261A] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
+                            <div className="bg-white border-2 border-[#544946] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
                                 <h3 className="text-3xl mb-4 text-center">Human Portraits</h3>
                                 <div className="mb-6">
-                                    <p className="text-2xl font-bold text-center text-[#50261A] mb-2">Starting at $200</p>
+                                    <p className="text-2xl font-bold text-center text-[#544946] mb-2">Starting at $200</p>
                                     <p className="text-center text-sm text-gray-600">Prices vary by size and medium</p>
                                 </div>
                                 <ul className="space-y-3 mb-6">
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Single subject: 8x10" - $200</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Single subject: 11x14" - $350</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Single subject: 16x20" - $550</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Additional subjects: +50% each</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Complex backgrounds: +$100</span>
                                     </li>
                                 </ul>
@@ -61,31 +61,31 @@ export default function CommissionPage() {
                             </div>
 
                             {/* Pet Portraits */}
-                            <div className="bg-white border-2 border-[#50261A] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
+                            <div className="bg-white border-2 border-[#544946] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
                                 <h3 className="text-3xl mb-4 text-center">Pet Portraits</h3>
                                 <div className="mb-6">
-                                    <p className="text-2xl font-bold text-center text-[#50261A] mb-2">Starting at $175</p>
+                                    <p className="text-2xl font-bold text-center text-[#544946] mb-2">Starting at $175</p>
                                     <p className="text-center text-sm text-gray-600">Prices vary by size and medium</p>
                                 </div>
                                 <ul className="space-y-3 mb-6">
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Single pet: 8x10" - $175</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Single pet: 11x14" - $300</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Single pet: 16x20" - $475</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Additional pets: +40% each</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Complex backgrounds: +$75</span>
                                     </li>
                                 </ul>
@@ -95,31 +95,31 @@ export default function CommissionPage() {
                             </div>
 
                             {/* Bird Paintings */}
-                            <div className="bg-white border-2 border-[#50261A] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
+                            <div className="bg-white border-2 border-[#544946] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
                                 <h3 className="text-3xl mb-4 text-center">Bird Paintings</h3>
                                 <div className="mb-6">
-                                    <p className="text-2xl font-bold text-center text-[#50261A] mb-2">Starting at $150</p>
+                                    <p className="text-2xl font-bold text-center text-[#544946] mb-2">Starting at $150</p>
                                     <p className="text-center text-sm text-gray-600">Original paintings and prints available</p>
                                 </div>
                                 <ul className="space-y-3 mb-6">
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Original: 8x10" - $150</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Original: 11x14" - $275</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Original: 16x20" - $425</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Prints available from $35</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Custom commissions welcome</span>
                                     </li>
                                 </ul>
@@ -141,7 +141,7 @@ export default function CommissionPage() {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                                <div className="w-16 h-16 bg-[#50261A] rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 text-white">
+                                <div className="w-16 h-16 bg-[#544946] rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 text-white">
                                     1
                                 </div>
                                 <h3 className="text-xl mb-3">Inquiry</h3>
@@ -151,7 +151,7 @@ export default function CommissionPage() {
                             </div>
 
                             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                                <div className="w-16 h-16 bg-[#50261A] rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 text-white">
+                                <div className="w-16 h-16 bg-[#544946] rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 text-white">
                                     2
                                 </div>
                                 <h3 className="text-xl mb-3">Quote & Deposit</h3>
@@ -161,7 +161,7 @@ export default function CommissionPage() {
                             </div>
 
                             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                                <div className="w-16 h-16 bg-[#50261A] rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 text-white">
+                                <div className="w-16 h-16 bg-[#544946] rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 text-white">
                                     3
                                 </div>
                                 <h3 className="text-xl mb-3">Creation</h3>
@@ -171,7 +171,7 @@ export default function CommissionPage() {
                             </div>
 
                             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                                <div className="w-16 h-16 bg-[#50261A] rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 text-white">
+                                <div className="w-16 h-16 bg-[#544946] rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 text-white">
                                     4
                                 </div>
                                 <h3 className="text-xl mb-3">Delivery</h3>
@@ -185,23 +185,23 @@ export default function CommissionPage() {
                             <h3 className="text-2xl mb-4">Important Information</h3>
                             <ul className="space-y-3">
                                 <li className="flex items-start">
-                                    <span className="text-[#50261A] mr-2 mt-1">•</span>
+                                    <span className="text-[#544946] mr-2 mt-1">•</span>
                                     <span>Turnaround time: Typically 4-6 weeks from deposit</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="text-[#50261A] mr-2 mt-1">•</span>
+                                    <span className="text-[#544946] mr-2 mt-1">•</span>
                                     <span>High-resolution reference photos required</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="text-[#50261A] mr-2 mt-1">•</span>
+                                    <span className="text-[#544946] mr-2 mt-1">•</span>
                                     <span>Minor revisions included in the price</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="text-[#50261A] mr-2 mt-1">•</span>
+                                    <span className="text-[#544946] mr-2 mt-1">•</span>
                                     <span>Shipping costs calculated separately</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="text-[#50261A] mr-2 mt-1">•</span>
+                                    <span className="text-[#544946] mr-2 mt-1">•</span>
                                     <span>Rush orders available for an additional fee</span>
                                 </li>
                             </ul>

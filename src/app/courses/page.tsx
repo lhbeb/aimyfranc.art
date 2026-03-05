@@ -28,7 +28,7 @@ export default function CoursesPage() {
                         {/* Course Levels */}
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
                             {/* Beginner */}
-                            <div className="bg-white border-2 border-[#50261A] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
+                            <div className="bg-white border-2 border-[#544946] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
                                 <h3 className="text-3xl mb-4 text-center">L1 Beginner</h3>
                                 <div className="mb-6">
                                     <Image
@@ -42,23 +42,23 @@ export default function CoursesPage() {
                                 <h4 className="text-xl mb-3 font-semibold">What You&apos;ll Learn:</h4>
                                 <ul className="space-y-3 mb-6">
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Basic drawing fundamentals</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Understanding proportions</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Shading techniques</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Introduction to various mediums</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Simple portrait exercises</span>
                                     </li>
                                 </ul>
@@ -68,7 +68,7 @@ export default function CoursesPage() {
                             </div>
 
                             {/* Intermediate */}
-                            <div className="bg-white border-2 border-[#50261A] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
+                            <div className="bg-white border-2 border-[#544946] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
                                 <h3 className="text-3xl mb-4 text-center">L2 Intermediate</h3>
                                 <div className="mb-6">
                                     <Image
@@ -82,23 +82,23 @@ export default function CoursesPage() {
                                 <h4 className="text-xl mb-3 font-semibold">What You&apos;ll Learn:</h4>
                                 <ul className="space-y-3 mb-6">
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Advanced shading & blending</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Facial features in detail</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Working with color</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Texture and detail work</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Pet portrait techniques</span>
                                     </li>
                                 </ul>
@@ -108,7 +108,7 @@ export default function CoursesPage() {
                             </div>
 
                             {/* Advanced */}
-                            <div className="bg-white border-2 border-[#50261A] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
+                            <div className="bg-white border-2 border-[#544946] p-8 rounded-lg shadow-md hover:shadow-xl transition-all">
                                 <h3 className="text-3xl mb-4 text-center">L3 Advanced</h3>
                                 <div className="mb-6">
                                     <Image
@@ -122,23 +122,23 @@ export default function CoursesPage() {
                                 <h4 className="text-xl mb-3 font-semibold">What You&apos;ll Learn:</h4>
                                 <ul className="space-y-3 mb-6">
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Professional portfolio development</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Complex compositions</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Mastering multiple mediums</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Personal style development</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">✓</span>
+                                        <span className="text-[#544946] mr-2">✓</span>
                                         <span>Commission work preparation</span>
                                     </li>
                                 </ul>
@@ -166,19 +166,19 @@ export default function CoursesPage() {
                                 </p>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">•</span>
+                                        <span className="text-[#544946] mr-2">•</span>
                                         <span>Lifetime access to course materials</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">•</span>
+                                        <span className="text-[#544946] mr-2">•</span>
                                         <span>Submit work for review</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">•</span>
+                                        <span className="text-[#544946] mr-2">•</span>
                                         <span>Community forum access</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">•</span>
+                                        <span className="text-[#544946] mr-2">•</span>
                                         <span>Certificate upon completion</span>
                                     </li>
                                 </ul>
@@ -191,19 +191,19 @@ export default function CoursesPage() {
                                 </p>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">•</span>
+                                        <span className="text-[#544946] mr-2">•</span>
                                         <span>Direct guidance and demonstration</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">•</span>
+                                        <span className="text-[#544946] mr-2">•</span>
                                         <span>Materials provided</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">•</span>
+                                        <span className="text-[#544946] mr-2">•</span>
                                         <span>Small class sizes (max 6 students)</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-[#50261A] mr-2">•</span>
+                                        <span className="text-[#544946] mr-2">•</span>
                                         <span>Networking opportunities</span>
                                     </li>
                                 </ul>

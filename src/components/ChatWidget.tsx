@@ -108,7 +108,7 @@ export default function ChatWidget() {
                     {/* Header */}
                     <div
                         className="flex items-center gap-3 px-4 py-3"
-                        style={{ background: '#50261A' }}
+                        style={{ background: '#544946' }}
                     >
                         <div className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center text-lg">
                             🎨
@@ -141,7 +141,7 @@ export default function ChatWidget() {
                                         : 'text-gray-800 rounded-bl-sm'
                                         }`}
                                     style={{
-                                        background: msg.from === 'user' ? '#50261A' : '#fff',
+                                        background: msg.from === 'user' ? '#544946' : '#fff',
                                         boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
                                     }}
                                 >
@@ -175,14 +175,14 @@ export default function ChatWidget() {
                                     value={name}
                                     onChange={e => setName(e.target.value)}
                                     placeholder="Your name to start..."
-                                    className="flex-1 text-sm px-3 py-2 rounded-full border border-gray-200 outline-none focus:border-[#50261A] transition-colors"
+                                    className="flex-1 text-sm px-3 py-2 rounded-full border border-gray-200 outline-none focus:border-[#544946] transition-colors"
                                     autoFocus
                                 />
                                 <button
                                     type="submit"
                                     disabled={!name.trim()}
                                     className="w-9 h-9 rounded-full flex items-center justify-center transition-all disabled:opacity-40"
-                                    style={{ background: '#50261A' }}
+                                    style={{ background: '#544946' }}
                                 >
                                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -196,7 +196,7 @@ export default function ChatWidget() {
                                     value={input}
                                     onChange={e => setInput(e.target.value)}
                                     placeholder="Type a message..."
-                                    className="flex-1 text-sm px-3 py-2 rounded-full border border-gray-200 outline-none focus:border-[#50261A] transition-colors"
+                                    className="flex-1 text-sm px-3 py-2 rounded-full border border-gray-200 outline-none focus:border-[#544946] transition-colors"
                                     disabled={sending}
                                     autoFocus
                                 />
@@ -204,7 +204,7 @@ export default function ChatWidget() {
                                     type="submit"
                                     disabled={!input.trim() || sending}
                                     className="w-9 h-9 rounded-full flex items-center justify-center transition-all disabled:opacity-40"
-                                    style={{ background: '#50261A' }}
+                                    style={{ background: '#544946' }}
                                 >
                                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
                                         <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
@@ -220,7 +220,7 @@ export default function ChatWidget() {
             <button
                 onClick={() => setOpen(o => !o)}
                 className="w-16 h-16 rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 relative"
-                style={{ background: '#50261A' }}
+                style={{ background: '#544946' }}
                 aria-label="Toggle chat"
             >
                 {open ? (

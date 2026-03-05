@@ -41,25 +41,25 @@ export default function PortfolioPage() {
                         <div className="flex flex-wrap justify-center gap-4 mb-12">
                             <Link
                                 href="/human-portraits"
-                                className="px-6 py-3 bg-white text-[#50261A] rounded-md hover:bg-[#50261A] hover:text-white border border-[#50261A] transition-all"
+                                className="px-6 py-3 bg-white text-[#544946] rounded-md hover:bg-[#544946] hover:text-white border border-[#544946] transition-all"
                             >
                                 Human Portraits
                             </Link>
                             <Link
                                 href="/pet-portraits"
-                                className="px-6 py-3 bg-white text-[#50261A] rounded-md hover:bg-[#50261A] hover:text-white border border-[#50261A] transition-all"
+                                className="px-6 py-3 bg-white text-[#544946] rounded-md hover:bg-[#544946] hover:text-white border border-[#544946] transition-all"
                             >
                                 Pet Portraits
                             </Link>
                             <Link
                                 href="/birds"
-                                className="px-6 py-3 bg-white text-[#50261A] rounded-md hover:bg-[#50261A] hover:text-white border border-[#50261A] transition-all"
+                                className="px-6 py-3 bg-white text-[#544946] rounded-md hover:bg-[#544946] hover:text-white border border-[#544946] transition-all"
                             >
                                 Birds
                             </Link>
                             <Link
                                 href="/miscellaneous"
-                                className="px-6 py-3 bg-white text-[#50261A] rounded-md hover:bg-[#50261A] hover:text-white border border-[#50261A] transition-all"
+                                className="px-6 py-3 bg-white text-[#544946] rounded-md hover:bg-[#544946] hover:text-white border border-[#544946] transition-all"
                             >
                                 Miscellaneous
                             </Link>
@@ -92,7 +92,7 @@ export default function PortfolioPage() {
                 </section>
 
                 {/* Call to Action */}
-                <section className="bg-[#50261A] py-16 md:py-24">
+                <section className="bg-[#544946] py-16 md:py-24">
                     <div className="container-custom text-center">
                         <h2 className="text-4xl md:text-5xl mb-6 text-white">Ready to Commission Your Portrait?</h2>
                         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white">
