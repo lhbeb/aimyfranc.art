@@ -35,7 +35,7 @@ export default function HeroCarousel() {
     };
 
     return (
-        <section className="flex items-center justify-center py-10" style={{ backgroundColor: '#562217', minHeight: '82.5vh' }}>
+        <section className="flex items-center justify-center py-10" style={{ backgroundColor: '#544946', minHeight: '82.5vh' }}>
             <div className="w-full max-w-7xl mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-3">
                     {getVisibleImages().map((image, index) => (
