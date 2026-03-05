@@ -1,0 +1,321 @@
+@import "tailwindcss";
+
+/* Futura PT Font Family */
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/futura-pt-webfont/FuturaCyrillicLight.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/futura-pt-webfont/FuturaCyrillicBook.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/futura-pt-webfont/FuturaCyrillicMedium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/futura-pt-webfont/FuturaCyrillicDemi.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/futura-pt-webfont/FuturaCyrillicBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/futura-pt-webfont/FuturaCyrillicHeavy.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/futura-pt-webfont/FuturaCyrillicExtraBold.woff') format('woff');
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --ast-global-color-0: #50261A;
+    --ast-global-color-1: #50261A;
+    --ast-global-color-2: #000000;
+    --ast-global-color-3: #3f3e3e;
+    --ast-global-color-4: #ededed;
+    --ast-global-color-5: #ffffff;
+    --font-futura: 'Futura PT', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+
+
+  body {
+    @apply bg-[#ededed] text-[#3f3e3e];
+    font-family: var(--font-futura);
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-futura);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: var(--ast-global-color-3);
+  }
+
+  h1 {
+    @apply text-5xl md:text-6xl lg:text-7xl;
+    line-height: 1;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+    line-height: 1;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+    line-height: 1;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl lg:text-3xl;
+  }
+
+  h5 {
+    @apply text-lg md:text-xl lg:text-2xl;
+  }
+
+  h6 {
+    @apply text-base md:text-lg lg:text-xl;
+  }
+
+  a {
+    color: var(--ast-global-color-2);
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  a:hover {
+    color: #ad1c14;
+  }
+
+  ::selection {
+    background-color: #50261A;
+    color: #000000;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-8 py-4 rounded-md;
+    font-family: inherit;
+    background-color: var(--ast-global-color-0);
+    border: none;
+    color: var(--ast-global-color-5);
+    font-size: 1rem;
+    line-height: 1em;
+    transition: all 0.2s;
+  }
+
+  .btn-primary:hover {
+    background-color: #3a1a0f;
+    color: var(--ast-global-color-5);
+  }
+
+  .btn-inverted {
+    @apply px-8 py-4 rounded-md;
+    font-family: inherit;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    color: #50261A;
+    font-size: 1rem;
+    line-height: 1em;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+
+  .btn-inverted:hover {
+    background-color: transparent;
+    color: #ffffff;
+  }
+
+  .container-custom {
+    @apply max-w-[1240px] mx-auto px-4 md:px-8 lg:px-9;
+  }
+
+  /* Logo styles */
+  .site-logo {
+    max-width: 220px;
+    height: auto;
+    width: 100%;
+  }
+
+  @media (max-width: 920px) {
+    .site-logo {
+      max-width: 160px;
+    }
+  }
+
+  @media (max-width: 544px) {
+    .site-logo {
+      max-width: 140px;
+    }
+  }
+
+  /* Navigation styles */
+  .main-navigation {
+    @apply flex items-center justify-center;
+  }
+
+  .main-navigation a {
+    @apply px-4 py-2 hover:text-[#ad1c14] transition-colors;
+    color: var(--ast-global-color-3);
+  }
+
+  .main-navigation a:hover {
+    color: var(--ast-global-color-1);
+  }
+
+  /* Service cards */
+  .service-card {
+    @apply bg-white p-6 rounded-lg shadow-md transition-all hover:shadow-xl;
+  }
+
+  .service-card h4 {
+    @apply mb-4 text-center;
+  }
+
+  .service-card img {
+    @apply w-full h-auto mb-4 rounded;
+  }
+
+  .service-card p {
+    @apply text-sm leading-relaxed mb-4;
+  }
+
+  .service-arrow {
+    @apply w-12 h-12 rounded-full border-2 flex items-center justify-center mx-auto transition-all hover:bg-[#50261A] hover:border-[#50261A] hover:text-white;
+    border-color: var(--ast-global-color-0);
+    color: var(--ast-global-color-0);
+  }
+
+  /* Image carousel */
+  .image-carousel-slide {
+    @apply flex-shrink-0 px-1;
+  }
+
+  .image-carousel-slide img {
+    @apply w-full h-auto object-cover rounded;
+  }
+
+  /* Divider */
+  .divider {
+    @apply w-24 h-1 mx-auto my-6;
+    background-color: var(--ast-global-color-0);
+  }
+}
+
+/* Swiper styles override */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Transparent header on homepage */
+.transparent-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: linear-gradient(90deg, rgb(254, 254, 254) 0%, rgb(198, 197, 197) 100%);
+}
+
+@media (max-width: 920px) {
+  .transparent-header {
+    background-color: var(--ast-global-color-5);
+    background-image: none;
+  }
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--ast-global-color-4);
+  color: var(--ast-global-color-3);
+}
+
+footer a {
+  color: var(--ast-global-color-3);
+}
+
+footer a:hover {
+  color: var(--ast-global-color-1);
+}
+
+/* Social icons */
+.social-icons a {
+  @apply inline-flex items-center justify-center mx-2 md:mx-4 transition-all;
+  color: var(--ast-global-color-3);
+}
+
+.social-icons a:hover {
+  color: var(--ast-global-color-1);
+}
+
+.social-icons svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+@media (max-width: 920px) {
+  .social-icons svg {
+    width: 18px;
+    height: 18px;
+  }
+}
